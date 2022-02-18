@@ -1,13 +1,13 @@
 def favorite_movie(movie)
-  puts "My favorite movie is " + movie.
+  "My favorite movie is " + movie.
 end
 
 def favorite_food(food)
-  puts "My favorite food is " + food
+  "My favorite food is " + food
 end
 
 def favorite_drink(drink)
-  puts "My favorite drink is " + drink
+  "My favorite drink is " + drink
 end 
 
 def list_of_favorite_things(movie, food, drink)
@@ -16,4 +16,4 @@ def list_of_favorite_things(movie, food, drink)
   favorite_drink(drink)
 end
 
-list_of_favorite_things("Iron Man", "Pizza", "Rock Star")
+puts list_of_favorite_things("Iron Man", "Pizza", "Rock Star")
