@@ -12,7 +12,7 @@ puts
 puts 'This program will take input from the User and compare password.'
 puts 'If correct, the application will return the user object.'
 
-def authenticateUser(un, pw)
+def authenticate_user(un, pw)
   USERS.each do |user|
     if user[:username] === un && user[:password] === pw
       return user
@@ -29,7 +29,7 @@ while attempt > 0 do
   username = gets.chomp
   print 'Password: '
   pw = gets.chomp
-  puts authenticateUser(username, pw)
+  puts authenticate_user(username, pw)
   puts 'Press n to quit or any other key to continue'
   userInput =  gets.chomp.downcase
   break if userInput == 'n'
