@@ -11,6 +11,7 @@ class Person
   end
 
   def self.print_all_people
+    puts @@people.length
     @@people.each do |person|
       puts "My name is #{person.name} and my age ios #{person.age}"
     end
