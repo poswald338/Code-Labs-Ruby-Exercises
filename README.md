@@ -26,5 +26,14 @@ Here is a list of ruby terms and definitions used in class.
 <em>**What are infinite loops?**</em> - loops where no condition is met and the code block executes infinitely <br>
 
 ## Part 3
+<em>**What is Object Oriented Programming?**</em> - Using objects, and their interactions to design and program an application <br>
+<em>**Class inheritance**</em> - when a class inherets the behavior of another class <br>
+<em>**What are getters and setters?**</em> - methods defined in a class that allow instace variables' values to be accessed or set <br>
+<em>**Difference between class variables and instance variables and class attributes?**</em> -
+Class variables- can be accessed by descendants of class in which variable is defined
+instance variables- variable which gives objects private space to store data. Unique value for each instance of a class
+class attributes- features used to specify and access attributes of an object <br>
+<em>**What does self signify in a class?**</em> - References the top level of a class. Considered an object. Can be used to set class methods: def self.do_something (Creates the do_something method for class in which it is defined) <br>
+<em>**Modules</em> - Used to share methods between classes by including it in a Class. Once included, its methods are accessible within that class<br>
 
 ## Part 4

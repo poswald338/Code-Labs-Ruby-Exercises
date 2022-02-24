@@ -20,8 +20,11 @@ end
  
 # Get area code based on given hash and key
 def get_area_code(somehash, key)
-  return somehash[key] if somehash[key]
-  'City could not be found'
+  if somehash.include?(key)
+    "The area code for #{key} is #{somehash[key]}."
+  else
+    "That city could not be found"
+  end
 end
  
 # Execution flow
@@ -36,11 +39,6 @@ loop do
   puts
   puts "Which city would you like to look up?"
   city = gets.chomp.downcase.delete(' ')
-  code = get_area_code dial_book, city 
-   if code.length === 3
-    puts "The area code for #{city} is #{code}."
-   else
-    puts code
-   end 
+  puts get_area_code dial_book, city 
   puts
 end
