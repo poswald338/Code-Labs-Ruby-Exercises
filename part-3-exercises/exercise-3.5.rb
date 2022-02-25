@@ -17,27 +17,21 @@ end
 
 class Doctor < Person
   def initialize(weight, height, name)
-    @weight = weight
-    @height = height
-    @name = name
+    super
     puts "I am a #{self.class}!"
   end
 end
 
 class Teacher < Person
   def initialize(weight, height, name)
-    @weight = weight
-    @height = height
-    @name = name
+    super
     puts "I am a #{self.class}!"
   end
 end
 
 class Engineer < Person
   def initialize(weight, height, name)
-    @weight = weight
-    @height = height
-    @name = name
+    super
     puts "I am a #{self.class}!"
   end
 end
