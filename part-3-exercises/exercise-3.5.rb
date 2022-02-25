@@ -46,7 +46,7 @@ d = Doctor.new(120, "12'0", "Steven")
 d.eat("pizza")
 
 t = Teacher.new(150, "5'4", "Stacy")
-puts t.height
+p t
 
 e = Engineer.new(185, "6'0", "David")
 puts e.name, e.weight
