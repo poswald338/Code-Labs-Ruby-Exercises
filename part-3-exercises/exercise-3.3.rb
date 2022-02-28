@@ -3,7 +3,7 @@ class Rectangle
   @length = 10
   @width = 5
 
-  def area
+  def self.area
     @length * @width
   end
 end
@@ -15,5 +15,6 @@ puts "Width of rectangle?"
 a.width = gets.chomp.to_i
 
 puts a.area
+# puts Rectangle.area
 
 

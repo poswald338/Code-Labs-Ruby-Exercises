@@ -21,8 +21,10 @@ dog.name = "Clifford"
 dog.animal_type = "dog"
 dog.color = "red"
 
-puts "My name is #{dog.name}"
-puts "I am a #{dog.animal_type}"
-puts "My fur color is #{dog.color}"
+puts dog
+
+# puts "My name is #{dog.name}"
+# puts "I am a #{dog.animal_type}"
+# puts "My fur color is #{dog.color}"
 
 puts Animal.intro(dog.name, dog.animal_type, dog.color)
