@@ -37,3 +37,6 @@ class attributes- features used to specify and access attributes of an object <b
 <em>**Modules</em> - Used to share methods between classes by including it in a Class. Once included, its methods are accessible within that class<br>
 
 ## Part 4
+<em>**Bundler**<em> - built in machanism for tracking and installing gems and appropriate versions from gemfile <br>
+<em>**Gemfile**<em> - List of gems and their versions that the developer wants to incorporate in their application <br>
+<em>**Bcrypt**<em> - Uses MD5 hashing algorithm and adds a SALT to turn a string making each password hash unique <br>
